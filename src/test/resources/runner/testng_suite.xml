@@ -5,10 +5,11 @@
 	<listeners>
 		<listener class-name="utilities.TestNGListeners"></listener>
 	</listeners>
-
-	<test name="">
-		<classes>
-			<class name="" />
+	<test name=" Hotel Login Test">
+	<parameter name = "userName" value = "student@test.com"/>
+	<parameter name = "password" value ="welcome1"/>
+ 		<classes>
+			<class name="tests.HotelLoginTest" />
 		</classes>
 	</test>
 </suite>
