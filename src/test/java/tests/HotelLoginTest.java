@@ -29,7 +29,7 @@ public class HotelLoginTest extends Base {
 	}
 	
 	
-	@Test
+	@Test 
 	@Parameters({"userName","password"})
 	public void loginToHotelTest(String userName,String password) {
 		
@@ -47,6 +47,9 @@ public class HotelLoginTest extends Base {
 		softAssert.assertAll();
 		DriverUtility.screenShot();
 	}
+	
+	
+	
 	
 	
 
